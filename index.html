@@ -3,6 +3,8 @@
 David Cruz
 11/1/2023
 tutorial link https://www.youtube.com/watch?v=4sosXZsdy-s
+Navebar completed
+ShowCase completed
 -->
 <html>
 
@@ -16,19 +18,15 @@ tutorial link https://www.youtube.com/watch?v=4sosXZsdy-s
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
     <div class="container">
       <a href="#" class="navbar-brand">Frontend Bootcamp</a>
 
-      <button 
-        class="navbar-toggler" 
-        type="button" 
-        data-bs-toggle="collapse" 
-        data-bs-target="#navmenu"
-      >
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class = "collapse navbar-collapse", id="navmenu">
+      <div class="collapse navbar-collapse" , id="navmenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a href="#learn" class="nav-link">What You'll Learn</a>
@@ -43,9 +41,27 @@ tutorial link https://www.youtube.com/watch?v=4sosXZsdy-s
       </div>
     </div>
   </nav>
+  <!-- Showcase -->
+  <section class="bg-dark text-light p-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Become a
+            <span class="text-warning"> Web Developer </span>
+
+            <p class="lead my-4">
+              We focus on teaching our stuedenst the fundamentals of the latest
+              and greates technologies to prepare them for their first dev role.
+            </p>
+            <button class="btn btn-primary btn-lg">Start The Enrollment</button>
+          </h1>
+        </div>
+        <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="">
+      </div>
+    </div>
+  </section>
 
 
-  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/emmet/2.4.6/emmet.es.js"></script>
   <script src="script.js"></script>
 
